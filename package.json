@@ -1,0 +1,29 @@
+{
+  "name": "sensitive-words",
+  "version": "1.0.0",
+  "description": "Filter out a list of sensitive words",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaskarmac/sensitive-words.git"
+  },
+  "keywords": [
+    "filter",
+    "filtering",
+    "sensitive",
+    "words"
+  ],
+  "author": "Bhaskar M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaskarmac/sensitive-words/issues"
+  },
+  "homepage": "https://github.com/bhaskarmac/sensitive-words#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
