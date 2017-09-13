@@ -1,1 +1,1 @@
-export default() => 'hello universe'
+export default() => 'hello world'
