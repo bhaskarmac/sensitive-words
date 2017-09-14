@@ -11,7 +11,11 @@ $ npm install sensitive-words --save
 const {sensitiveWords} = require('sensitive-words')
 //ES2015 Modules
 import {sensitiveWords} from sensitive-words
-const filtered = sensitiveWords('The new apple macbook pro is awesome', ['pro', 'new'])
+const filtered =
+sensitiveWords(
+  'The new apple macbook pro is awesome',
+  ['pro', 'new']
+)
 console.log('filtered=>', filtered);
 //The ***** apple macbook ***** is awesome
 ```
